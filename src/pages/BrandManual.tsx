@@ -125,7 +125,7 @@ const BrandManual = () => {
 
               <div className="flex items-center justify-center">
                 <img 
-                  src="/lovable-uploads/df5de145-a325-4a4d-b4f3-b95588d24633.png" 
+                  src="/lovable-uploads/97d01a0c-4fc7-4145-9bec-a6365ea55ad6.png" 
                   alt="Taynã - O Mago Rebelde" 
                   className="w-full max-w-sm rounded-2xl shadow-2xl border border-purple-500/30"
                 />
@@ -178,7 +178,7 @@ const BrandManual = () => {
 
               <div className="flex items-center justify-center">
                 <img 
-                  src="/lovable-uploads/ef0e19c9-4954-45ba-94b3-9d2f9f1f313e.png" 
+                  src="/lovable-uploads/080d682e-3e1b-4279-9fdc-3129e7acde5b.png" 
                   alt="Taynã na praia" 
                   className="w-full max-w-sm rounded-2xl shadow-2xl border border-blue-500/30"
                 />
@@ -286,7 +286,7 @@ const BrandManual = () => {
 
               <div className="flex items-center justify-center">
                 <img 
-                  src="/lovable-uploads/0da22456-3177-453b-a06f-bb804452957e.png" 
+                  src="/lovable-uploads/9c000c4d-453e-4dd4-b18b-65bd58a48814.png" 
                   alt="Taynã conectado com a natureza" 
                   className="w-full max-w-sm rounded-2xl shadow-2xl border border-blue-500/30"
                 />
@@ -332,7 +332,7 @@ const BrandManual = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
               <div className="flex items-center justify-center">
                 <img 
-                  src="/lovable-uploads/21782128-e0b5-438e-a1c9-4cf9e194f2bd.png" 
+                  src="/lovable-uploads/7f38f6a1-1f64-4f5e-b95a-093c06df0fa0.png" 
                   alt="Taynã com geometria sagrada" 
                   className="w-full max-w-sm rounded-2xl shadow-2xl border border-purple-500/30"
                 />
@@ -446,7 +446,7 @@ const BrandManual = () => {
 
               <div className="flex items-center justify-center">
                 <img 
-                  src="/lovable-uploads/ce7effc6-d2fd-4c6e-a34d-d08e5773a181.png" 
+                  src="/lovable-uploads/533f200d-153c-465c-9dd6-7066f869e9d4.png" 
                   alt="Taynã trabalhando" 
                   className="w-full max-w-sm rounded-2xl shadow-2xl border border-blue-500/30"
                 />
