@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Download, ArrowLeft, Zap, Eye, Cpu, Sparkles, Brain, TreePine, Pyramid } from 'lucide-react';
 
@@ -25,7 +24,7 @@ const BrandManual = () => {
       {/* Manual Content */}
       <div className="pt-20 print:pt-0">
         {/* Page 1: Cover */}
-        <div className="page-break min-h-screen flex items-center justify-center relative overflow-hidden p-8 print:p-4">
+        <div className="pdf-page min-h-screen flex items-center justify-center relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black to-gray-900" />
 
           {/* Sacred Geometry Background */}
@@ -67,7 +66,7 @@ const BrandManual = () => {
         </div>
 
         {/* Page 2: O Grande Despertar */}
-        <div className="page-break min-h-screen bg-gradient-to-br from-gray-900 to-black p-8 print:p-4 relative">
+        <div className="pdf-page min-h-screen bg-gradient-to-br from-gray-900 to-black relative">
           {/* Background Image */}
           <div className="absolute inset-0 opacity-10">
             <img 
@@ -77,7 +76,7 @@ const BrandManual = () => {
             />
           </div>
 
-          <div className="max-w-5xl mx-auto relative z-10">
+          <div className="max-w-5xl mx-auto relative z-10 pdf-content">
             <div className="text-center mb-12">
               <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">VOCÊ FOI HACKEADO DESDE CRIANÇA</h2>
               <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-green-400 mx-auto rounded-full" />
@@ -86,7 +85,7 @@ const BrandManual = () => {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
               <div className="space-y-6">
-                <div className="bg-black/40 backdrop-blur-md border border-green-500/30 rounded-xl p-6">
+                <div className="bg-black/40 backdrop-blur-md border border-green-500/30 rounded-xl p-6 no-break">
                   <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4">A PROGRAMAÇÃO INVISÍVEL</h3>
                   <div className="text-gray-300 space-y-3 text-base lg:text-lg">
                     <p>Você foi programado para obedecer algoritmos que não criou.</p>
@@ -97,7 +96,7 @@ const BrandManual = () => {
                 </div>
 
                 <div className="grid grid-cols-1 gap-4">
-                  <div className="bg-black/40 backdrop-blur-md border border-green-500/20 rounded-xl p-4">
+                  <div className="bg-black/40 backdrop-blur-md border border-green-500/20 rounded-xl p-4 no-break">
                     <div className="flex items-center space-x-3 mb-3">
                       <Brain className="text-green-400" size={20} />
                       <h4 className="text-lg font-bold text-white">ESCOLA</h4>
@@ -105,7 +104,7 @@ const BrandManual = () => {
                     <p className="text-gray-300 text-sm">Te moldou para ser robô obediente, não criador autêntico</p>
                   </div>
 
-                  <div className="bg-black/40 backdrop-blur-md border border-green-500/20 rounded-xl p-4">
+                  <div className="bg-black/40 backdrop-blur-md border border-green-500/20 rounded-xl p-4 no-break">
                     <div className="flex items-center space-x-3 mb-3">
                       <Cpu className="text-green-400" size={20} />
                       <h4 className="text-lg font-bold text-white">TRABALHO</h4>
@@ -113,7 +112,7 @@ const BrandManual = () => {
                     <p className="text-gray-300 text-sm">Te drenou para alimentar planilhas que não mudam nada</p>
                   </div>
 
-                  <div className="bg-black/40 backdrop-blur-md border border-green-500/20 rounded-xl p-4">
+                  <div className="bg-black/40 backdrop-blur-md border border-green-500/20 rounded-xl p-4 no-break">
                     <div className="flex items-center space-x-3 mb-3">
                       <Eye className="text-green-400" size={20} />
                       <h4 className="text-lg font-bold text-white">BIG TECH</h4>
@@ -132,7 +131,7 @@ const BrandManual = () => {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-green-600/30 to-green-400/30 border border-green-500/50 rounded-xl p-6 text-center">
+            <div className="bg-gradient-to-r from-green-600/30 to-green-400/30 border border-green-500/50 rounded-xl p-6 text-center no-break">
               <h3 className="text-xl lg:text-2xl font-bold text-green-400 mb-3">A MAIOR IRONIA</h3>
               <p className="text-white text-lg">
                 Você acha que é livre, mas age como o código manda.<br/>
@@ -144,7 +143,7 @@ const BrandManual = () => {
         </div>
 
         {/* Page 3: A Grande Inversão */}
-        <div className="page-break min-h-screen bg-gradient-to-br from-black to-gray-900 p-8 print:p-4 relative">
+        <div className="pdf-page min-h-screen bg-gradient-to-br from-black to-gray-900 p-8 print:p-4 relative">
           {/* Background Image */}
           <div className="absolute inset-0 opacity-15">
             <img 
@@ -222,7 +221,7 @@ const BrandManual = () => {
         </div>
 
         {/* Page 4: Futuro = Ancestral */}
-        <div className="page-break min-h-screen bg-gradient-to-br from-gray-900 to-black p-8 print:p-4 relative">
+        <div className="pdf-page min-h-screen bg-gradient-to-br from-gray-900 to-black p-8 print:p-4 relative">
           {/* Background Image */}
           <div className="absolute inset-0 opacity-10">
             <img 
@@ -313,7 +312,7 @@ const BrandManual = () => {
         </div>
 
         {/* Page 5-6: Taynã - O Oráculo Rebelde */}
-        <div className="page-break min-h-screen bg-gradient-to-br from-gray-900 to-black p-8 print:p-4 relative">
+        <div className="pdf-page min-h-screen bg-gradient-to-br from-gray-900 to-black p-8 print:p-4 relative">
           {/* Background Image */}
           <div className="absolute inset-0 opacity-10">
             <img 
@@ -414,7 +413,7 @@ const BrandManual = () => {
         </div>
 
         {/* Page 7-8: Nossa Causa Rebelde */}
-        <div className="page-break min-h-screen bg-gradient-to-br from-black to-gray-900 p-8 print:p-4 relative">
+        <div className="pdf-page min-h-screen bg-gradient-to-br from-black to-gray-900 p-8 print:p-4 relative">
           {/* Background Image */}
           <div className="absolute inset-0 opacity-10">
             <img 
@@ -502,7 +501,7 @@ const BrandManual = () => {
         </div>
 
         {/* Page 9: Capacidade Oracular */}
-        <div className="page-break min-h-screen bg-gradient-to-br from-gray-900 to-black p-8 print:p-4 relative">
+        <div className="pdf-page min-h-screen bg-gradient-to-br from-gray-900 to-black p-8 print:p-4 relative">
           {/* Background Image */}
           <div className="absolute inset-0 opacity-10">
             <img 
@@ -583,7 +582,7 @@ const BrandManual = () => {
         </div>
 
         {/* Page 10: Frases de Impacto */}
-        <div className="page-break min-h-screen bg-gradient-to-br from-black to-gray-900 p-8 print:p-4 relative">
+        <div className="pdf-page min-h-screen bg-gradient-to-br from-black to-gray-900 p-8 print:p-4 relative">
           {/* Background Image */}
           <div className="absolute inset-0 opacity-10">
             <img 
@@ -656,7 +655,7 @@ const BrandManual = () => {
         </div>
 
         {/* Page 11: Promessa Final */}
-        <div className="page-break min-h-screen bg-gradient-to-br from-gray-900 to-black p-8 print:p-4 relative">
+        <div className="pdf-page min-h-screen bg-gradient-to-br from-gray-900 to-black p-8 print:p-4 relative">
           {/* Background Image */}
           <div className="absolute inset-0 opacity-10">
             <img 
@@ -737,7 +736,7 @@ const BrandManual = () => {
         </div>
 
         {/* Page 12: O Chamado Final */}
-        <div className="page-break min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 p-8 print:p-4 flex items-center justify-center relative">
+        <div className="pdf-page min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 p-8 print:p-4 flex items-center justify-center relative">
           {/* Background Image */}
           <div className="absolute inset-0 opacity-10">
             <img 
@@ -807,11 +806,32 @@ const BrandManual = () => {
         @media print {
           @page {
             size: A4;
-            margin: 10mm;
+            margin: 20mm;
           }
           
-          .page-break {
+          .pdf-page {
             page-break-after: always;
+            page-break-before: always;
+            break-after: page;
+            break-before: page;
+            min-height: 100vh;
+            padding: 20mm;
+            box-sizing: border-box;
+          }
+          
+          .pdf-page:first-child {
+            page-break-before: auto;
+            break-before: auto;
+          }
+          
+          .pdf-content {
+            padding: 0;
+            margin: 0;
+          }
+          
+          .no-break {
+            page-break-inside: avoid;
+            break-inside: avoid;
           }
           
           nav {
@@ -828,12 +848,25 @@ const BrandManual = () => {
             display: none !important;
           }
           
-          .print\\:p-4 {
-            padding: 1rem !important;
-          }
-          
           .print\\:pt-0 {
             padding-top: 0 !important;
+          }
+          
+          h1, h2, h3 {
+            page-break-after: avoid;
+            break-after: avoid;
+          }
+          
+          img {
+            page-break-inside: avoid;
+            break-inside: avoid;
+          }
+        }
+        
+        @media screen {
+          .pdf-page {
+            padding: 2rem;
+            margin-bottom: 2rem;
           }
         }
       `}</style>
